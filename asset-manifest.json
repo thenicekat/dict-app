@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dict-app/static/css/main.85273d27.css",
-    "main.js": "/dict-app/static/js/main.b869e8d7.js",
+    "main.js": "/dict-app/static/js/main.ecdcc9bb.js",
     "static/js/787.fd77603c.chunk.js": "/dict-app/static/js/787.fd77603c.chunk.js",
     "index.html": "/dict-app/index.html",
     "main.85273d27.css.map": "/dict-app/static/css/main.85273d27.css.map",
-    "main.b869e8d7.js.map": "/dict-app/static/js/main.b869e8d7.js.map",
+    "main.ecdcc9bb.js.map": "/dict-app/static/js/main.ecdcc9bb.js.map",
     "787.fd77603c.chunk.js.map": "/dict-app/static/js/787.fd77603c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85273d27.css",
-    "static/js/main.b869e8d7.js"
+    "static/js/main.ecdcc9bb.js"
   ]
 }
