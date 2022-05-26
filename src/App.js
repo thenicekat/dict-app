@@ -26,7 +26,7 @@ function App() {
       setError('');
     })
     .catch(err => {
-      setError("Error: " + err);
+      setError("Word not found");
       setMeaning('');
     });
   }
