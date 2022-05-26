@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import 'tachyons';
 
@@ -7,6 +7,13 @@ function App() {
   const [meaning, setMeaning] = useState('');
   const [error, setError] = useState('');
   const [color, setColor] = useState('#96ccff');
+
+  useEffect(() => {
+    const localColor = localStorage.getItem("color");
+    if(localColor){
+      setColor(localColor);
+    }
+  }, [color])
 
   const onButtonClick = (e) => {
     e.preventDefault();
@@ -27,6 +34,8 @@ function App() {
 
   const changeColor = (color) => {
     setColor(color);
+    localStorage.setItem("color", color);
+    console.log("Saved Color");
   }
 
 
