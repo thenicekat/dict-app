@@ -25,7 +25,10 @@ function App() {
       setMeaning(answer[0]["meanings"])
       setError('');
     })
-    .catch(err => setError("Error: " + err));
+    .catch(err => {
+      setError("Error: " + err);
+      setMeaning('');
+    });
   }
 
   const onInputChange = (e) => {
