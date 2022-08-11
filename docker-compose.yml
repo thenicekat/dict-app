@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  dict-app:
+    container_name: dict-app
+    build: ./
+    command: npm start
+    working_dir: /usr/src/dict-app
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/usr/src/dict-app
