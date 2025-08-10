@@ -1,7 +1,7 @@
 {
   "name": "dict-app",
   "version": "0.1.0",
-  "homepage": "https://divyateja04.github.io/dict-app",
+  "homepage": "https://thenicekat.github.io/dict-app",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
